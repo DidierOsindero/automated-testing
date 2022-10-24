@@ -17,6 +17,5 @@ function findShortestString(stringArr) {
   return shortestString.length;
 }
 
-console.log(findShortestString(["it", "is", "a", "nice", "day"]), "a");
-console.log(findShortestString(["why", "hello", "to", "you"]), "to");
-console.log(findShortestString(["brave", "dance"]), "brave");
+//Make this function accessible to test file
+module.exports = findShortestString;
